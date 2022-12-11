@@ -30,7 +30,7 @@ const Login = () => {
                 <button className="btn btn-outline-primary" type="submit"><img src={iconGoogle} className="img-google me-3" width="20" alt='connect-google'/>Log in with Google</button>
                 <button className="btn btn-outline-primary" type="submit"><img src={iconFacebook} className="img-google me-3" width="20" alt='connect-facebook'/>Log in with Facebook</button>
               </div>
-              <p>don't have an account yet? <a href="#/" style={{"text-decoration": "none"}}><span className="fw-bold" style={{"color":"#00BF2C"}}>Sign Up</span></a></p>
+              <p>don't have an account yet? <a href="/signup" style={{"text-decoration": "none"}}><span className="fw-bold" style={{"color":"#00BF2C"}}>Sign Up</span></a></p>
             </div>
           </form>
         </div>
